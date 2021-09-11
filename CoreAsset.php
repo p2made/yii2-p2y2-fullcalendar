@@ -16,7 +16,7 @@ class CoreAsset extends AssetBundle
      * [$sourcePath description]
      * @var string
      */
-    public $sourcePath = '@bower/fullcalendar/dist';
+    public $sourcePath = '@bower/fullcalendar/packages/core';
 
     /**
      * the language the calender will be displayed in
@@ -41,7 +41,7 @@ class CoreAsset extends AssetBundle
      * @var array
      */
     public $css = [
-        'fullcalendar.min.css',
+        'main.min.css',
     ];
 
     /**
@@ -49,7 +49,7 @@ class CoreAsset extends AssetBundle
      * @var array
      */
     public $js = [
-        'fullcalendar.js',        
+        'main.js',        
         'locale-all.js',
     ];
     
@@ -59,7 +59,6 @@ class CoreAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\YiiAsset',
-        'yii2fullcalendar\MomentAsset',
         'yii2fullcalendar\PrintAsset'
     ];
 

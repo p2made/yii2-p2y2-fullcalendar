@@ -2,7 +2,7 @@ yii2fullcalendar
 ================
 JQuery Fullcalendar Yii2 Extension
 JQuery from: http://arshaw.com/fullcalendar/
-Version 2.1.1
+Version 4.0.2
 License MIT
 
 JQuery Documentation:
@@ -15,7 +15,6 @@ http://yii2fullcalendar.beeye.org
 [![Latest Stable Version](https://poser.pugx.org/philippfrenzel/yii2fullcalendar/v/stable.svg)](https://packagist.org/packages/philippfrenzel/yii2fullcalendar)
 [![Build Status](https://travis-ci.org/philippfrenzel/yii2fullcalendar.svg?branch=master)](https://travis-ci.org/philippfrenzel/yii2fullcalendar)
 [![Code Climate](https://codeclimate.com/github/philippfrenzel/yii2fullcalendar.png)](https://codeclimate.com/github/philippfrenzel/yii2fullcalendar)
-[![Version Eye](https://www.versioneye.com/php/philippfrenzel:yii2fullcalendar/badge.svg)](https://www.versioneye.com/php/philippfrenzel:yii2fullcalendar)
 [![License](https://poser.pugx.org/philippfrenzel/yii2fullcalendar/license.svg)](https://packagist.org/packages/philippfrenzel/yii2fullcalendar)
 
 Installation
@@ -39,6 +38,7 @@ And ensure, that you have the following plugin installed global:
 Changelog
 ---------
 
+17-04-2019 Updated to latest 4.0.2 Stable Version of the library
 19-01-2017 Updated to include non-standard fields
 29-11-2014 Updated to latest 2.2.3 Version of the library
 
@@ -55,7 +55,7 @@ Quickstart Looks like this:
   $Event->id = 1;
   $Event->title = 'Testing';
   $Event->start = date('Y-m-d\TH:i:s\Z');
-  $event->nonstandard = [
+  $Event->nonstandard = [
     'field1' => 'Something I want to be included in object #1',
     'field2' => 'Something I want to be included in object #2',
   ];
